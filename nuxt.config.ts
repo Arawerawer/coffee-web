@@ -17,6 +17,10 @@ export default defineNuxtConfig({
       title: "Coffee Brand - 精選咖啡豆專賣",
       meta: [
         {
+          name: "google-site-verification",
+          content: "qZ66aNW40HTvwLelqcx4TW2EwEJU33P_Uje54CPCyp0",
+        },
+        {
           name: "description",
           content:
             "探索精選單品豆，從產地到烘焙，淬鍊出純粹的原始風味。提供巴西、哥倫比亞、衣索比亞、肯亞等世界各地精選咖啡豆。",
