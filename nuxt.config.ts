@@ -31,6 +31,7 @@ export default defineNuxtConfig({
         { property: "og:locale", content: "zh_TW" },
       ],
       link: [
+        { rel: "icon", type: "image/png", href: "/coffee-icon.png" },
         {
           rel: "stylesheet",
           href: "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Tinos:wght@400;700&display=swap",
