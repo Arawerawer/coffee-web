@@ -1,48 +1,48 @@
 <template>
   <section
     id="about-us"
-    class="bg-cover bg-center scroll-mt-24"
-    style="background-image: url('/background-2.jpg')"
+    class="min-h-screen bg-cover bg-center scroll-mt-24"
+    style="background-image: url(&quot;/background-2.jpg&quot;)"
   >
     <article
-      class="w-full py-14 bg-black/70 flex flex-col justify-center items-center"
+      class="w-full min-h-screen py-14 bg-black/70 flex flex-col justify-center items-center"
     >
-      <div
-        class="w-full px-2 flex flex-col justify-center items-center gap-24"
-      >
+      <div class="w-full px-2 flex flex-col justify-center items-center gap-24">
         <h2
-          class="w-full text-center text-stone-100 text-4xl font-medium font-['Playfair_Display'] leading-[90px]"
+          class="w-full text-center text-stone-100 text-4xl lg:text-7xl font-medium font-['Playfair_Display'] leading-22.5"
         >
           關於我們
         </h2>
 
         <p
-          class="w-full text-center text-stone-100/80 text-xs font-light font-['Inter'] leading-9"
+          class="w-full text-center text-stone-100/80 text-xs lg:text-2xl font-light font-['Inter'] leading-9"
         >
           自 2015 年創立以來，我們致力於為您提供最優質的咖啡體驗
         </p>
 
         <blockquote
-          class="w-full px-28 flex flex-col justify-center items-center gap-20"
+          class="w-full px-28 lg:px-30 flex flex-col lg:flex-row justify-center items-center gap-20"
         >
           <p
-            class="w-full text-stone-100/80 text-xs font-light font-['Inter'] leading-8"
+            class="w-full text-stone-100/80 text-xs lg:text-2xl font-light font-['Inter'] leading-8"
           >
             對我們而言，咖啡不只是一份飲品，更是連結生活與情感的媒介。從尋找世界各地的永續莊園豆，到無數次微調烘焙。
           </p>
           <p
-            class="w-full text-stone-100/80 text-xs font-light font-['Inter'] leading-8"
+            class="w-full text-stone-100/80 text-xs lg:text-2xl font-light font-['Inter'] leading-8"
           >
             在這個快節奏的時代，我們希望透過這份堅持，為您在繁忙的日常中，留下一處充滿溫暖與香氣的靜謐時光。
           </p>
         </blockquote>
 
-        <ul class="w-full flex flex-col justify-start items-start gap-12">
+        <ul
+          class="w-full flex flex-col lg:flex lg:flex-row justify-start items-start gap-12"
+        >
           <li
             class="w-full h-24 flex flex-col justify-center items-center gap-6"
           >
             <span
-              class="w-full text-center text-[#d4af37] text-5xl font-normal font-['Playfair_Display'] leading-[48px]"
+              class="w-full text-center text-[#d4af37] text-5xl font-normal font-['Playfair_Display'] leading-12"
             >
               12+
             </span>
@@ -56,7 +56,7 @@
             class="w-full h-24 flex flex-col justify-center items-center gap-6"
           >
             <span
-              class="w-full text-center text-[#d4af37] text-5xl font-normal font-['Playfair_Display'] leading-[48px]"
+              class="w-full text-center text-[#d4af37] text-5xl font-normal font-['Playfair_Display'] leading-12"
             >
               50+
             </span>
@@ -70,7 +70,7 @@
             class="w-full h-24 flex flex-col justify-center items-center gap-6"
           >
             <span
-              class="w-full text-center text-[#d4af37] text-5xl font-normal font-['Playfair_Display'] leading-[48px]"
+              class="w-full text-center text-[#d4af37] text-5xl font-normal font-['Playfair_Display'] leading-12"
             >
               100%
             </span>

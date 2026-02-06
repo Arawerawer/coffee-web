@@ -7,7 +7,7 @@ defineProps<{
 </script>
 
 <template>
-  <article
+  <figure
     class="w-72 h-96 shrink-0 bg-white rounded-2xl shadow-lg flex flex-col justify-center items-center"
   >
     <img
@@ -29,5 +29,5 @@ defineProps<{
         {{ description }}
       </p>
     </figcaption>
-  </article>
+  </figure>
 </template>

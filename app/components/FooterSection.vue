@@ -3,23 +3,23 @@
     id="contact-us"
     class="w-full pb-14 pt-5 relative bg-amber-900 flex justify-center items-center scroll-mt-24"
   >
-    <div class="w-full flex flex-col justify-center items-center gap-10">
-      <section class="w-full flex flex-col justify-center items-center gap-5">
+    <div
+      class="w-full flex flex-col lg:flex lg:flex-row justify-center lg:justify-between items-center lg:px-30 gap-10"
+    >
+      <section
+        class="flex flex-col justify-center items-center gap-5 lg:gap-10"
+      >
         <h3
-          class="w-full text-center justify-start text-amber-400 text-base font-normal font-['Tinos'] leading-7"
+          class="text-amber-400 text-base font-normal font-['Tinos'] leading-7"
         >
           營業時間
         </h3>
 
-        <p
-          class="w-full text-center justify-start text-amber-100 text-sm font-normal font-['Inter'] leading-6"
-        >
+        <p class="text-amber-100 text-sm font-normal font-['Inter'] leading-6">
           週一至週五:07:00 - 20:00
         </p>
 
-        <p
-          class="w-full text-center justify-start text-amber-100 text-sm font-normal font-['Inter'] leading-6"
-        >
+        <p class="text-amber-100 text-sm font-normal font-['Inter'] leading-6">
           週六至週日:08:00 - 21:00
         </p>
       </section>

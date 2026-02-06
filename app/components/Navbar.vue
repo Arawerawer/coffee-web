@@ -16,10 +16,45 @@ function scrollTo(id: string) {
     >
       Coffee Brand
     </h1>
-
+    <!-- Desktop -->
+    <ul
+      class="hidden lg:flex absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 justify-center items-center gap-6 whitespace-nowrap"
+    >
+      <li
+        class="text-neutral-600 text-2xl font-normal font-['Inter'] leading-5 cursor-pointer hover:text-neutral-900 transition-colors duration-200"
+        @click="scrollTo('hero')"
+      >
+        首頁
+      </li>
+      <li
+        class="text-neutral-600 text-2xl font-normal font-['Inter'] leading-5 cursor-pointer hover:text-neutral-900 transition-colors duration-200"
+        @click="scrollTo('product-section')"
+      >
+        精選商品
+      </li>
+      <li
+        class="text-neutral-600 text-2xl font-normal font-['Inter'] leading-5 cursor-pointer hover:text-neutral-900 transition-colors duration-200"
+        @click="scrollTo('coffee-section')"
+      >
+        精選咖啡
+      </li>
+      <li
+        class="text-neutral-600 text-2xl font-normal font-['Inter'] leading-5 cursor-pointer hover:text-neutral-900 transition-colors duration-200"
+        @click="scrollTo('about-us')"
+      >
+        關於我們
+      </li>
+      <li
+        class="text-neutral-600 text-2xl font-normal font-['Inter'] leading-5 cursor-pointer hover:text-neutral-900 transition-colors duration-200"
+        @click="scrollTo('contact-us')"
+      >
+        聯絡我們
+      </li>
+    </ul>
+    <!-- mobile -->
     <button
       type="button"
-      class="right-3.75 top-5.75 absolute flex flex-col gap-[12.21px] cursor-pointer"
+      class="lg:hidden right-3.75 top-5.75 absolute flex flex-col gap-[12.21px] cursor-pointer"
       @click="isMenuOpen = !isMenuOpen"
     >
       <span
@@ -40,7 +75,7 @@ function scrollTo(id: string) {
   <Transition name="slide-down">
     <ul
       v-show="isMenuOpen"
-      class="w-full px-2.5 py-7 left-0 top-24 fixed nav-list-bg inline-flex flex-col justify-center items-center gap-7 overflow-hidden z-10"
+      class="w-full px-2.5 py-7 left-0 top-24 fixed nav-list-bg flex flex-col justify-center items-center gap-7 overflow-hidden z-10"
     >
       <li
         class="text-neutral-600 text-2xl font-normal font-['Inter'] leading-5 cursor-pointer"
