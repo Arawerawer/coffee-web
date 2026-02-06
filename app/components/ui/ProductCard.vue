@@ -27,7 +27,7 @@ const isModalOpen = ref(false);
     </figure>
 
     <button
-      class="w-full py-3 bg-[#c9956b] rounded-[10px] flex justify-center items-center cursor-pointer"
+      class="w-full py-3 bg-[#c9956b] rounded-[10px] flex justify-center items-center cursor-pointer hover:bg-[#b8845a] transition-colors duration-200"
       @click="isModalOpen = true"
     >
       <span
